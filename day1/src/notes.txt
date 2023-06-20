@@ -1,0 +1,44 @@
+Spring Framework
+Response to the complexity of Java Enterprise Edition
+It was too complex and shifted to other languages like python or javascript
+Reducing boilerplate codes. Allowing developers to focus on business implementation
+
+there are different ue cases, spring LDAP, spring web services etc
+you can choose which one depending on your use cases and spring boot will activate it seamlessly
+Springboot- easier to develop, just focus on the application, hides the technical side
+
+Spring makes it easier to create Java enterprise applications
+Flexible, modular, backwards compatible
+//you can choose which element to use and not ALL
+Large and active community
+//wealth of knowledge is there
+//open source
+
+Spring Boot #3 keywords
+auto configuration
+//setup feature automagically
+//standalone
+//no need for web servers
+opinionated
+//has chosen way of doing things by default
+
+spring boot auto configuration
+attempts to automatically configure your spring application based on the dependencies..
+stand alone
+makes it easy to create stand alone, production grade, spring based applications that you can just run
+opinionated
+favors convention over configuration and is designed to get you up and running as quickly as possible
+
+https://start.spring.io/
+website for spring boot
+add lombok first thing
+
+
+Dependency Injection
+handles all the classes initializations???
+
+Spring context - has all the objects needed
+Spring beans - ???
+
+
+
