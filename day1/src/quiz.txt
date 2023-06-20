@@ -1,0 +1,27 @@
+1. Enterprise
+
+2. what is boiler plate code
+boiler plate code is the a set of repetitive codes that is placed over and over again to be used or called.
+filler codes but is needed for the project to run.
+
+3. what is the underlying or foundation project/component of springboot?
+spring framework
+
+4. company that maintains the open source of springboot
+Spring
+
+5. URL to initialize or create springboot project
+https://start.spring.io/
+
+6. what is a stand alone application
+stand alone applications does not need any separate software or connection to run. Sample like it can run without internet
+or does not need server access
+
+7.8.9.
+Dependency injection has the goal of increasing reusability of a set of codes. This is done by decoupling the object from its creation
+and making the class independent. this is advantageous since if you were to change a dependency, you would not need to change the class itself.
+
+10. mvn spring-boot:run
+
+
+
