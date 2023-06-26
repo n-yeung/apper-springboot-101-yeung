@@ -1,0 +1,11 @@
+api - Application Programming Interface
+ReST - representational state transfer
+
+4 common verbs - post (create) , get (retrieve existing resource), update (update existing), delete
+
+ReST components - HTTP verb, resource path, header and body
+
+ReST components - HTTP response code, body
+
+Response codes, 200 ok, 201 created, 400 bad request, 404 not found, 405 not allowed
+500 internal server........1xx continue...(n/a)
