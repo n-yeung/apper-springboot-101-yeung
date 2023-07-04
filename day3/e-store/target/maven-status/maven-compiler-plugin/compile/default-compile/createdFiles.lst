@@ -1,0 +1,4 @@
+com/apper/estore/App.class
+com/apper/estore/UserApi.class
+com/apper/estore/CreateUserResponse.class
+com/apper/estore/CreateUserRequest.class
