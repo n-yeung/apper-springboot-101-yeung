@@ -1,0 +1,8 @@
+com/apper/estore/User.class
+com/apper/estore/ServiceError.class
+com/apper/estore/App.class
+com/apper/estore/CreateUserRequest.class
+com/apper/estore/UserApi.class
+com/apper/estore/InvalidUserAgeException.class
+com/apper/estore/ServiceExceptionHandler.class
+com/apper/estore/CreateUserResponse.class
