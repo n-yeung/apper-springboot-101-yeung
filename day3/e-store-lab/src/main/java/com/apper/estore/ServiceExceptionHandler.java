@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @ControllerAdvice
 public class ServiceExceptionHandler {
 
@@ -22,8 +25,10 @@ public class ServiceExceptionHandler {
     }
 
     @ExceptionHandler(InvalidUserAgeException.class)
-    public ResponseEntity<String> handleInvalidUserAgeException(InvalidUserAgeException ex) {
-        return ResponseEntity.badRequest().body(ex.getMessage());
+    public ResponseEntity<Map<String, String>> handleInvalidUserAgeException(InvalidUserAgeException message) {
+        Map<String, String> response = new HashMap<>();
+        response.put("message", message.getMessage());
+        return ResponseEntity.badRequest().body(response);
     }
 
 }
